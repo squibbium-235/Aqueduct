@@ -3,7 +3,7 @@
 import random
 
 while True:
-    print("Main Menu")
+    print("Main Menu\n")
     print("(1)      Random Number Generation")
     print("(2)      Converters")
     print("(3)      Quit")
@@ -21,12 +21,12 @@ while True:
 
             if choice == '1':
                 number1 = int(input("Enter the lower number: "))
-                number2 = int(input("Enter the higher number: "))
+                number2 = int(input("Enter the higher number: \n"))
                 print(random.randint(number1,number2))
                 print("")
             elif choice == '2':
                 number1 = float(input("Enter the lower decimal number: "))
-                number2 = float(input("Enter the higher decimal number: "))
+                number2 = float(input("Enter the higher decimal number: \n"))
                 print(random.uniform(number1,number2))
                 print("")
             elif choice == '3':
