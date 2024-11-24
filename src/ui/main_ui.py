@@ -1,3 +1,5 @@
+# i have an incredibly homosexual friend. and i have put you in here to be forever rememberd for touching me every day
+
 import random
 
 while True:
