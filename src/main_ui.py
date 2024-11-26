@@ -1,8 +1,7 @@
 # i have an incredibly homosexual friend. and i have put you in here to be forever rememberd for touching me every day
 
 import random
-from modules.RNG import random
-
+from modules.RNG.random import randomNumber
 while True:
     print("Main Menu\n")
     print("(1)      Random Number Generation")
