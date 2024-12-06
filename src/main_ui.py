@@ -32,6 +32,9 @@ while True:
                 print("(4)      Imperial to Metric")
                 print("")
                 print("(5)      Back")
+                choice = int(input("> "))
+                if choice == 1:
+                    
 
     elif choice == '3':
         break  # Quit the program
