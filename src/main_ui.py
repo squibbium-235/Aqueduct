@@ -1,7 +1,6 @@
 # i have an incredibly homosexual friend. and i have put you in here to be forever rememberd for touching me every day
 
-import random
-from modules.RNG.random import randomNumber
+from modules.RNG.random_main import randomNumber
 while True:
     print("Main Menu\n")
     print("(1)      Random Number Generation")
@@ -34,8 +33,6 @@ while True:
                 print("(5)      Back")
                 choice = int(input("> "))
                 if choice == 1:
-                    
-
     elif choice == '3':
         break  # Quit the program
     else:
